@@ -35,31 +35,7 @@ contacts-app/
 │
 ├── contacts_app.py
 └── README.md
-```
 
----
-
-## 🚀 Getting Started
-
-### Clone the repository
-
-```bash
-git clone <repository-url>
-```
-
-### Navigate to the project folder
-
-```bash
-cd contacts-app
-```
-
-### Run the program
-
-```bash
-python contacts_app.py
-```
-
----
 
 ## 📋 Application Menu
 

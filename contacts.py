@@ -15,11 +15,11 @@ while True:
         mob_no =int(input("Enter new mobile no : "))
 
         if mob_no in contacts:
-            print("Already Exists....✅")
+            print("Already Exists....")
         else:
             name =input("Enter name : ")
             contacts[mob_no] = name
-            print("Contact Added Successfully....✅")
+            print("Contact Added Successfully....")
     
     elif choice == 2:
         mob_no =int(input("Enter mobile number : "))
@@ -27,16 +27,16 @@ while True:
         if mob_no in contacts:
             print(mob_no,contacts[mob_no])
         else:
-            print("Contact not found....❗")
+            print("Contact not found....")
 
     elif choice == 3:
         mob_no =int(input("Enter mobile number : "))
 
         if mob_no in contacts:
             contacts.pop(mob_no)
-            print("Contact Delete Successfully....✅")
+            print("Contact Delete Successfully....")
         else:
-            print("Contact not found....❗")
+            print("Contact not found....")
 
     
     elif choice == 4:
@@ -45,14 +45,14 @@ while True:
         if mob_no in contacts:
             name =input("Enter Updated name : ")
             contacts.update({mob_no : name})
-            print("Contact Update Successfully....✅")
+            print("Contact Update Successfully....")
         else:
-            print("Contact not found....❗")
+            print("Contact not found....")
 
     elif choice == 5:
 
         if len(contacts) == 0:
-            print("No Contacts....❗")
+            print("No Contacts....")
         else:
             print("Mob No :  Name")
             for i in contacts:
@@ -62,4 +62,4 @@ while True:
         break
 
     else:
-        print("Invalid Choice...❌\nEnter Again...")
+        print("Invalid Choice...\nEnter Again...")
